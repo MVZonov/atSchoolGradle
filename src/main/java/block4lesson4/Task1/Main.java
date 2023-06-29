@@ -22,7 +22,7 @@ public class Main {
                 function = new Half();
                 break;
             case "Double":
-                function = new java.lang.Double();
+                function = new Double();
                 break;
             case "Exact":
                 function = new Exact();
