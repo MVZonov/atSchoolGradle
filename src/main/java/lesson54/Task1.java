@@ -4,7 +4,7 @@ public class Task1 {
     static String s = "Циклом называется многократное выполнение одних и тех же действий.";
 
     public static void main(String[] args) {
-        String a = "к";
+        String a = "6";
         System.out.println(findIndex(a));
         System.out.println(s);
     }

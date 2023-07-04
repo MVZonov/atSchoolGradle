@@ -30,19 +30,6 @@ public class Main {
             case "Square":
                 function = new Square();
                 break;
-            case "Wave":
-                function = new Function() {
-                    private int previousX = 0;
-                    public int evaluate(int x) {
-                        int result = x + previousX;
-                        previousX = x;
-                        return result;
-                    }
-                };
-                break;
-            case "SquareEven":
-                function = x -> x % 2 == 0 ? x * x : x;
-                break;
             default:
                 System.out.println("Операция " + operationName + " не поддерживается.");
                 return;

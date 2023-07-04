@@ -5,7 +5,7 @@ public class Task6 {
         String a = args[0];
         System.out.println(toInt(a));
     }
-    static int toInt(String str) {
+    public static int toInt(String str) {
         int num=0;
         int pos =1;
         boolean flag = false;
